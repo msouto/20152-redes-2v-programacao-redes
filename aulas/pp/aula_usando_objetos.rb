@@ -8,4 +8,4 @@ for i in 0..produto1.size-1 do
     end
 end        
 # Dupla - 25/11/2015
-# Manasses e Tiago
+# Manasses e Tiago (+0,5 extra)
