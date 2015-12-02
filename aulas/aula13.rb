@@ -16,3 +16,24 @@ puts a[0]          #=> 105
 #BinaryString com 3 bytes (3 caracteres).
 bs = [89, 250, 5].pack('CCC');
 
+#Exemplo 4: convertendo bs para array. Cada byte será convertido 
+#individualmente para um inteiro, por isso a diretiva ocorre 
+#3 vezes.
+puts bs.unpack('CCC').to_s    #=> [89 250 5]
+
+#Exemplo 5: convertendo um inteiro maior do que 255 e menor 
+#do que 65536 (2^16). Neste caso, a conversão deve gerar 2 
+#bytes. A diretiva n indica que a resultado deve ser uma 
+#sequência de 16 bits em network byte order (big endian).
+bs = [10500].pack('n')
+puts bs.size            #=> 2
+
+#Exemplo 6: processo inverso. Devemos utilizar a mesma ordenação 
+#de bits, ou seja, network byte order. Neste caso, os dois bytes 
+#de BS irão gerar um array contendo apenas um elemento, por isso 
+#há apenas uma ocorrência da diretiva c.
+a = bs.unpack('n')
+puts a.size           #=> 1
+puts a[0]             #=> 10500
+
+
