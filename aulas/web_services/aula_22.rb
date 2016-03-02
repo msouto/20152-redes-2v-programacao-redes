@@ -5,7 +5,7 @@ require "net/http"
 #a biblioteca net/http do Ruby, a qual faz parte da API padrão.
 
 #Envia requisição GET ao serviço
-response = Net::HTTP.get_response(URI('http://freegeoip.net/json/'))
+response = Net::HTTP.get_response(URI('http://freegeoip.net/xml/'))
 
 #Imprime corpo da resposta HTTP
 puts response.body
