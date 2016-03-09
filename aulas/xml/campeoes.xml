@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<campeoes>
+    <selecao>
+            <pais>Italia</pais>
+            <continente>Europa</continente>
+            <copas_do_mundo>
+                <copa ano="1934" local="Italia" />
+                <copa ano="1938" local="Franca" />
+                <copa ano="1982" local="Espanha" />
+                <copa ano="2006" local="Alemanha" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Brasil</pais>
+            <continente>America do Sul</continente>
+            <copas_do_mundo>
+                <copa ano="1958" local="Suecia" />
+                <copa ano="1962" local="Chile" />
+                <copa ano="1970" local="Mexico" />
+                <copa ano="1994" local="Estados Unidos" />
+                <copa ano="2002" local="Coreia e Japao" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Argentina</pais>
+            <continente>America do Sul</continente>
+            <copas_do_mundo>
+                <copa ano="1978" local="Argentina" />
+                <copa ano="1986" local="Mexico" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Alemanha</pais>
+            <continente>Europa</continente>
+            <copas_do_mundo>
+                <copa ano="1954" local="Suica" />
+                <copa ano="1974" local="Alemanha" />
+                <copa ano="1990" local="Italia" />
+                <copa ano="2014" local="Brasil" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Uruguai</pais>
+            <continente>America do Sul</continente>
+            <copas_do_mundo>
+                <copa ano="1930" local="Uruguai" />
+                <copa ano="1950" local="Brasil" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Franca</pais>
+            <continente>Europa</continente>
+            <copas_do_mundo>
+                <copa ano="1998" local="Franca" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Inglaterra</pais>
+            <continente>Europa</continente>
+            <copas_do_mundo>
+                <copa ano="1966" local="Inglaterra" />
+            </copas_do_mundo>
+    </selecao>
+    <selecao>
+            <pais>Espanha</pais>
+            <continente>Europa</continente>
+            <copas_do_mundo>
+                <copa ano="2010" local="Africa do Sul" />
+            </copas_do_mundo>
+    </selecao>
+</campeoes>
