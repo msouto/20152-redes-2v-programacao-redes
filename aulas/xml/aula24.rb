@@ -27,3 +27,14 @@ puts "** Copas realizadas no século 21 **"
 doc.elements.each("campeoes/selecao/copas_do_mundo/copa[@ano>=2000]") do |c|
 	puts "#{c.attributes['ano']} - #{c.attributes['local']}"
 end
+
+#listando os paises europeus vencedores de copas
+puts "** Paises europeus vencedores de copas **"
+doc.elements.each("campeoes/selecao[continente='Europa']/pais") do |p|
+	puts p.text
+end
+
+
+
+
+
